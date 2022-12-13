@@ -7,7 +7,6 @@
 * Phone: +48 508 781 122
 * E-mail: mia.goiko@gmail.com
 * GitHub: [MiaGoi](https://github.com/MiaGoi)
-</br>
 
 ## __Summary__
 I am a very responsible person, I always strive for perfection in performing the tasks assigned to me. I am characterized by communication skills, resistance to stressful situations and high personal culture. I have always wanted to try myself in programming, this time has come
