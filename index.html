@@ -5,28 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <img class="profile-photo" src="img/profile-photo.jpeg" alt="profile-photo">
-        <h1><span>MIA</span> GOIKO</h1>
-        <h3>Junior Front End Developer</h3>
-    </header>
-    <aside>
-        <section class="contact">
-
-        </section>
-        <section class="lang">
-
-        </section>
-        <section class="skills">
-
-        </section>
-        <section class="my-code"></section>
-    </aside>
-    <main>
-
-    </main>
+    <div class="left-wrapper">
+        <header>
+            <img class="profile-photo" src="img/profile-photo.jpeg" alt="profile-photo">
+            <h1><span>MIA</span> GOIKO</h1>
+            <h3>Junior Front End Developer</h3>
+        </header>
+        <aside>
+            <section id="contact" class="contact">
+                <h2 class="contact__header">Contact</h2>
+                <ul class="contact__contact-list list">
+                    <li class="contact__list-item list-item"></li>
+                    <li class="contact__list-item list-item"></li>
+                    <li class="contact__list-item list-item"></li>
+                </ul>
+            </section>
+            <section id="lang" class="lang">
+                <h2 class="lang__header">Languages</h2>
+                <ul class="lang__list list">
+                    <li class="lang__list-item list-item"></li>
+                    <li class="lang__list-item list-item"></li>
+                    <li class="lang__list-item list-item"></li>
+                </ul>
+            </section>
+            <section id="skills" class="skills">
+                <h2 class="skills__header">Skills</h2>
+                <ul class="skills__list list">
+                    <li class="skills__list-item list-item"></li>
+                    <li class="skills__list-item list-item"></li>
+                    <li class="skills__list-item list-item"></li>
+                </ul>
+            </section>
+            <section id="my-code" class="my-code"></section>
+        </aside>
+    </div>
+    <div class="right-wrapper">
+        <main>
+            <nav class="main-nav nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#exp">Expierience</a></li>
+                    <li class="nav-item"><a href="#edu">Education</a></li>
+                    <li class="nav-item"><a href="#courses">Courses</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+            <section id="abt-me" class="about-me">
+                <h2>About me</h2>
+                <p>I am a very responsible person, 
+                    I always strive for perfection in performing 
+                    the tasks assigned to me. I am characterized by 
+                    communication skills, resistance to stressful situations and high 
+                    personal culture. I have always wanted to try myself in programming, 
+                    this time has come.</p>
+            </section>
+            <section id="exp" class="exp">
+                <h2 class="exp__header">Expierience</h2>
+                <ul class="exp__list list">
+                    <li class="list-item exp__list-item">
+                        <span>UI/UX designer | Computer graphic designer</span> <br> Startup Barter 
+                        | 03.2022 - currently <br>
+                        -Designing a responsive website <br>
+                        -Creation/redesign of graphics for Social Media
+                    </li>
+                    <li class="list-item exp__list-item">
+                        <span>Web designer | Computer graphic designer</span> <br>
+                        Graphics company | 07.2021 - 04.2022 <br>
+                        -Creation of landing page design <br>
+                        -Creation of custom layouts for clients
+                    </li>
+                </ul>
+            </section>
+            <section id="edu" class="edu">
+                <h2 class="edu__header">Education</h2>
+                <ul class="edu__list list">
+                    <li class="list-item edu__list-item">
+                        <span>Jagiellonian University:</span> 
+                        journalism and social communication
+                    </li>
+                    <li class="list-item edu__list-item">
+                        <span>Gdansk University of physical education and sport:</span> 
+                        Dietetics in Sport and Recreation
+                    </li>
+                </ul>
+            </section>
+            <section id="courses" class="courses">
+                <h2 class="courses__header">Courses</h2>
+                <ul class="courses__list list">
+                    <li class="courser__list-item list-item"><span>UI/UX design |</span> Maxim Kuznetsov</li>
+                    <li class="courser__list-item list-item"><span>Super Figma |</span> VideoSmile</li>
+                    <li class="courser__list-item list-item"><span>Figma 3.0 |</span> Skillbox</li>
+                    <li class="courser__list-item list-item"><span>Super Illustrator |</span> VideoSmile</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <a href="https://github.com/MiaGoi"><img width="50px" src="icons/github-mark.svg" alt="github-logo"></a>
+            <a href="https://rs.school/js/"><img height="50px" src="icons/rs_school_js.svg" alt="rss-logo"></a>
+            <p>created 2022</p>
+        </footer>
+    </div>
 </body>
 </html>
