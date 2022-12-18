@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.profile-photo {
+    width: 104px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+header {
+    background-color: #EDD765;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    max-width: 182px;
+}
