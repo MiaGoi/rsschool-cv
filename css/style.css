@@ -24,7 +24,10 @@ nav {
 .bold {
     font-weight: bold;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 li::marker {
     color:#EDD765;
 }
@@ -39,7 +42,7 @@ li::marker {
 header {
     background-color: #EDD765;
     width: 587px;
-    height: 630px;
+    height: 600px;
     padding-top: 64px;
     display: flex;
     flex-direction: column;
@@ -68,6 +71,7 @@ h3 {
 
 .list-item {
     margin-bottom: 20px;
+    line-height: 43px;
 }
 
 .list-item:last-child {
@@ -87,17 +91,19 @@ h3 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 55px;
+
 }
 
 body {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1440px;
 }
 
 aside {
-    max-width: 587px;
+    min-width: 587px;
     background-color: #EAEAE6;
     padding-top: 48px;
     display: flex;
@@ -106,10 +112,18 @@ aside {
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 110px;
     background-color: #EDD765;
 }
 
-.contact__header {
+.contact__header,
+.lang__header,
+.skills__header,
+.my-code__header {
     margin-bottom: 60px;
 }
 
@@ -137,3 +151,68 @@ footer {
 .rectangle-grey {
     background-color: #D9D9D9;
 }
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 520px;
+}
+
+.gitlink {
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item {
+    font-size: 25px;
+    margin-right: 35px;
+}
+
+main {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+hr {
+    margin: 0;
+    margin-bottom: 16px;
+    border: none;
+    height: 4px;
+    background-color: #EDD765;
+}
+
+.about-me,
+.exp,
+.edu,
+.courses {
+    margin-bottom: 50px;
+    width: 789px;
+}
+
+.main-h2 {
+    margin-bottom: 16px;
+}
+.header-hr {
+    margin-bottom: 45px;
+}
+
